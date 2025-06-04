@@ -3,6 +3,14 @@
 This pipeline copies Raw data from the **Microsoft Fabric Lakehouse** to the **Fabric Warehouse** using the Copy activity.
  
 ---
+
+## 🧠 What This Pipeline Does
+ 
+- Loads raw trip data from Lakehouse
+- Stages it into the Warehouse for reporting or transformation
+- No transformations done here; raw records are simply transferred
+
+---
  
 ### 📸 Screenshot of Pipeline
  
@@ -11,19 +19,19 @@ This pipeline copies Raw data from the **Microsoft Fabric Lakehouse** to the **F
 
 ---
 
-### Latest Processed Data
+### ⚙️ Latest Processed Data
 For the Script Activity “Latest Processed Data”
 ![image](https://github.com/user-attachments/assets/7d1c529c-8770-4586-acb7-c1550ecc9cae)
 
 ---
 
-### v_date
+### ⚙️ v_date
 Pipeline expression for v_date Set Variable activity
 ![image](https://github.com/user-attachments/assets/ed660917-b5b4-42e9-8491-1c9e38225417)
 
 ---
 
-### Copy to Staging
+### ⚙️ Copy to Staging
 
 Pre Copy Script
 
@@ -31,13 +39,13 @@ Pre Copy Script
 
 ---
 
-### v_end_date
+### ⚙️ v_end_date
 Pipeline expression for v_end_date Set Variable activity
 ![image](https://github.com/user-attachments/assets/3d0f3cd8-9734-4f9d-8885-72c1c80eb5b5)
 
 ---
 
-### SP Removing Outlier Dates
+### ⚙️ SP Removing Outlier Dates
 For the Stored Procedure Activity “SP Removing Outlier Dates”.
 
 Create the Stored Procedure stg.data_cleaning_stg in the Data Warehouse using the code below.
@@ -48,7 +56,7 @@ Create the Stored Procedure stg.data_cleaning_stg in the Data Warehouse using th
 
 ---
 
-### SP Loading Staging Metadata
+### ⚙️ SP Loading Staging Metadata
 For the Stored Procedure Activity “SP Loading Staging Metadata”.
 
 Code to create the metadata.processing_log table.
@@ -61,10 +69,5 @@ Created the Stored Procedure metadata.insert_staging_metadata in the Data Wareho
 ![image](https://github.com/user-attachments/assets/c75d7d09-8f89-4de8-b92e-6f3d482d1f0c)
 
 
-## 🧠 What This Pipeline Does
- 
-- Loads raw trip data from Lakehouse
-- Stages it into the Warehouse for reporting or transformation
-- No transformations done here; raw records are simply transferred
 
 

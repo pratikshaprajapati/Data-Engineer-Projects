@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/9f4e003b-34af-4a14-b8f1-702339bfca50)# 🔍 Pipeline: Lookup from Lakehouse to Warehouse
+# 🔍 Pipeline: Lookup from Lakehouse to Warehouse
  
 This pipeline copies dimension lookup data from the **Microsoft Fabric Lakehouse** to the **Fabric Warehouse** using the Copy activity.
  

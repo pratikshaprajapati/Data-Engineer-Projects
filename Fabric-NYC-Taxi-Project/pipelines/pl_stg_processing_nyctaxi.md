@@ -61,5 +61,10 @@ Created the Stored Procedure metadata.insert_staging_metadata in the Data Wareho
 ![image](https://github.com/user-attachments/assets/c75d7d09-8f89-4de8-b92e-6f3d482d1f0c)
 
 
+## 🧠 What This Pipeline Does
+ 
+- Loads raw trip data from Lakehouse
+- Stages it into the Warehouse for reporting or transformation
+- No transformations done here; raw records are simply transferred
 
 

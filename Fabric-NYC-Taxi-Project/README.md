@@ -13,11 +13,8 @@ the **NYC Yellow Taxi dataset** from [nyc.gov](https://www.nyc.gov/site/tlc/abou
 ### 📂 Folder Structure
  
 - `data/`: README and dataset download instructions
-- `notebooks/`: Fabric notebook for processing
 - `pipelines/`: Ingestion pipeline JSON
-- `sql/`: SQL scripts for transformation
 - `reports/`: Power BI dashboard screenshot
-- `README.md`: Documentation of the full process
  
 ### 📥 Data Source
  

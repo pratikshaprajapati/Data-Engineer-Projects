@@ -8,6 +8,6 @@ This pipeline copies dimension lookup data from the **Microsoft Fabric Lakehouse
  
 > Replace with your own screenshot filename
  
-![Pipeline Screenshot](![image](https://github.com/user-attachments/assets/18577ad1-e776-4a42-8323-195171645314))
+![image](https://github.com/user-attachments/assets/18577ad1-e776-4a42-8323-195171645314)
  
 ---

@@ -26,6 +26,7 @@ Pipeline expression for v_date Set Variable activity
 ### Copy to Staging
 
 Pre Copy Script
+
 ![image](https://github.com/user-attachments/assets/b1f3f0ed-eae0-4299-b961-b8fc90f4def5)
 
 ---

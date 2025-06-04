@@ -12,9 +12,9 @@ the **NYC Yellow Taxi dataset** from [nyc.gov](https://www.nyc.gov/site/tlc/abou
  
 ### 📂 Folder Structure
  
-- `data/`: README and dataset download instructions
-- `pipelines/`: Ingestion pipeline JSON
-- `reports/`: Power BI dashboard screenshot
+- [data](https://github.com/pratikshaprajapati/Data-Engineer-Projects/tree/main/Fabric-NYC-Taxi-Project/data): README and dataset download instructions
+- [pipelines](https://github.com/pratikshaprajapati/Data-Engineer-Projects/tree/main/Fabric-NYC-Taxi-Project/pipelines): Ingestion pipeline JSON
+- [reports](https://github.com/pratikshaprajapati/Data-Engineer-Projects/tree/main/Fabric-NYC-Taxi-Project/reports): Power BI dashboard screenshot
  
 ### 📥 Data Source
  
@@ -31,7 +31,7 @@ The NYC Taxi data is not uploaded here due to file size limitations.
  
 ### 📊 Sample Dashboard
  
-![dashboard](reports/dashboard_preview.png)
+![dashboard](https://github.com/pratikshaprajapati/Data-Engineer-Projects/tree/main/Fabric-NYC-Taxi-Project/reports)
  
 ### 📌 Key Learnings
  

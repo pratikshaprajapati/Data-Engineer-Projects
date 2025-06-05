@@ -26,15 +26,6 @@ This is the initial empty table so we can load the data from the Dataflow/Stored
 
 ---
 
-#### ⚙️ SP Processing Presentation
-
-For the Stored Procedure Activity “SP Processing Presentation ”.
-
-Create the Stored Procedure dbo.process_presentation in the Data Warehouse using the code below.
-![image](https://github.com/user-attachments/assets/362eba6d-d674-403d-9388-e0a0fda00797)
-
----
-
 #### ⚙️ SP Loading Presentation Metadata
 For the Stored Procedure Activity “SP Loading Staging Metadata”.
 

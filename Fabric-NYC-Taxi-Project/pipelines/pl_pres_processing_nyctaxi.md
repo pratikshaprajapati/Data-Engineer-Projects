@@ -12,9 +12,10 @@ This pipeline copies Raw data from the **Microsoft Fabric Lakehouse** to the **F
 ---
  
 #### 📸 Screenshot of Pipeline
-This is a view of the pipeline using the Stored Procedure rather than the Dataflow Gen2. If you're using a Dataflow you can ignore the code for the SP Process Presentation activity
+This is a view of the pipeline using the Dataflow Gen2.
 
-![image](https://github.com/user-attachments/assets/c41be821-d723-4f7c-a84c-996f68be93e2)
+![image](https://github.com/user-attachments/assets/9e8652a3-93ad-47b2-a4b8-279874c734ae)
+
 
 ---
 

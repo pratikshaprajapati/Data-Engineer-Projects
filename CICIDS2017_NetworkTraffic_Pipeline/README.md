@@ -3,14 +3,10 @@
 This project demonstrates a data engineering pipeline built using the CICIDS2017 intrusion detection dataset. The goal is to simulate real-world handling of network traffic logs, clean and enrich the data, and prepare it for further analysis or machine learning.
  
 ---
- 
-## 📁 Project Structure
- 
-- `CICIDS2017_Data_Engineering_Pipeline.ipynb`: Jupyter notebook with all preprocessing steps and visualizations.
-- `data/raw/`: Contains the raw CSV file from CICIDS2017 (e.g., Friday-WorkingHours-Afternoon-DDos.csv).
-- `data/processed/`: Cleaned and feature-rich CSV ready for modeling or dashboarding.
-- `images/`: Optional — stores generated plots and charts.
- 
+## 📂 Dataset Source
+> ⚠️ Raw dataset files are not included due to size constraints.  
+> 📁 Please download the dataset from:  
+> [CICIDS2017 Official Source](https://www.unb.ca/cic/datasets/ids-2017.html)
 ---
  
 ## ⚙️ Steps Performed
@@ -33,8 +29,17 @@ This project demonstrates a data engineering pipeline built using the CICIDS2017
  
 ---
  
-## 📂 Dataset Source
+## 📁 Project File
  
-[CICIDS2017 from Canadian Institute for Cybersecurity](https://www.unb.ca/cic/datasets/ids-2017.html)
+- `CICIDS2017_Data_Engineering_Pipeline.ipynb` – Full pipeline with code, cleaning, feature engineering, and visualizations
  
+---
+
+## ✅ Instructions to Run
+ 
+1. Download any sample `.csv` files (e.g., `Friday-WorkingHours-Afternoon-DDos.csv`) from the CICIDS site
+2. Place it in a `data/` folder locally
+3. Open the notebook in Jupyter
+4. Follow each cell step-by-step — from data loading to final export
+
 ---

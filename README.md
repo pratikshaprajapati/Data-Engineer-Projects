@@ -18,4 +18,16 @@ This repository showcases hands-on data engineering projects that demonstrate my
  
 ---
  
+### 2. [CICIDS2017 Network Traffic Data Pipeline – Python]()
+ 
+> Built a robust data engineering pipeline to process and analyze labeled network traffic data from the CICIDS2017 dataset for security insights and ML readiness.
+Tech stack: Python, Pandas, Matplotlib, Seaborn, Jupyter Notebook
+
+🔑 **Key Outcomes:**
+- Cleaned and processed 225K+ records with 85+ network traffic features
+- Engineered custom security features like byte ratios and flow flags
+- Visualized attack distribution, protocol trends, top attacker IPs, and feature correlations
+- Exported final enriched dataset for downstream modeling and analytics
+
+ 
 *More projects coming soon...*

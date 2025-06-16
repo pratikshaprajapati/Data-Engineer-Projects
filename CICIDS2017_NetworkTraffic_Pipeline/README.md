@@ -31,7 +31,7 @@ This project demonstrates a data engineering pipeline built using the CICIDS2017
  
 ## 📁 Project File
  
-- `CICIDS2017_Data_Engineering_Pipeline.ipynb` – Full pipeline with code, cleaning, feature engineering, and visualizations
+- `IntrusionDetection_DataPipeline_CICIDS2017.ipynb` – Full pipeline with code, cleaning, feature engineering, and visualizations
  
 ---
 

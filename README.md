@@ -18,7 +18,7 @@ This repository showcases hands-on data engineering projects that demonstrate my
  
 ---
  
-### 2. [CICIDS2017 Network Traffic Data Pipeline – Python]()
+### 2. [CICIDS2017 Network Traffic Data Pipeline – Python](https://github.com/pratikshaprajapati/Data-Engineer-Projects/tree/main/CICIDS2017_NetworkTraffic_Pipeline)
  
 > Built a robust data engineering pipeline to process and analyze labeled network traffic data from the CICIDS2017 dataset for security insights and ML readiness.
 Tech stack: Python, Pandas, Matplotlib, Seaborn, Jupyter Notebook
